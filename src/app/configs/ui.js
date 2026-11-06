@@ -304,7 +304,7 @@ const metaData = {
   main: {
     title: "Báo Hỉ Thuận - Ngọc | Kính Mời",
     graphImage:
-      `${cdnLink}/e14`,
+      "https://res.cloudinary.com/ecsr9vbf/image/upload/v1793965989/E14.jpg",
   },
 
   wish: {
