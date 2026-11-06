@@ -304,24 +304,24 @@ const metaData = {
   main: {
     title: "Báo Hỉ Thuận - Ngọc | Kính Mời",
     graphImage:
-      "https://res.cloudinary.com/ecsr9vbf/image/upload/v1793965989/E14.jpg",
+      "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965989/E14.jpg",
   },
 
   wish: {
     title: "Tất cả lời chúc dành cho Thuận - Ngọc",
     graphImage:
-      "`${cdnLink}/e14`",
+      "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965989/E14.jpg",
   },
 
   invitation: {
     title: "Báo Hỉ | Form Nhập Tên",
     graphImage:
-      "`${cdnLink}/e14`",
+      "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965989/E14.jpg",
   },
   album: {
-    title: "Album của Hùng - Thúy`",
+    title: "Album của Thuận - Ngọc`",
     graphImage:
-      "`${cdnLink}/e14`",
+      "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965989/E14.jpg",
   },
 };
 
