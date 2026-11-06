@@ -109,19 +109,19 @@ const invitationSection = {
 
 const albumSection = {
   images: [
-    `${cdnLink}/e14`,
-    `${cdnLink}/e15`,
-    `${cdnLink}/e4`,
-    `${cdnLink}/e20`,
+    `${cdnLink}/e30`,
+    `${cdnLink}/e28`,
+    `${cdnLink}/e25`,
+    `${cdnLink}/e18`,
     `${cdnLink}/e7`,
-    `${cdnLink}/e8`,
+    `${cdnLink}/e16`,
   ],
 };
 
 // guestbook section
 
 const guestbookSection = {
-  image: `${cdnLink}/e7`,
+  image: `${cdnLink}/e10`,
   time: "28/11/2026",
 };
 
@@ -129,7 +129,7 @@ const guestbookSection = {
 
 const giftSection = {
   image:
-    `${cdnLink}/E26`,
+    `${cdnLink}/E2`,
   brideBank: {
     name: "Đoàn Thị Ngọc",
     bankName: "Vietinbank ",
@@ -157,19 +157,19 @@ const timerSection = {
 
 const finalSection = {
   images: [
-    `${cdnLink}/E1`,
-    `${cdnLink}/E2`,
-    `${cdnLink}/E3`,
-    `${cdnLink}/E4`,
+    `${cdnLink}/E24`,
+    `${cdnLink}/E33`,
+    `${cdnLink}/E32`,
+    `${cdnLink}/E13`,
   ],
 };
 
 // Album Page
 
 const albumPage = {
-  topImage: `${cdnLink}/E21`,
-  bottomImage: `${cdnLink}/E22`,
-  mainImage: `${cdnLink}/e20`,
+  topImage: `${cdnLink}/E5`,
+  bottomImage: `${cdnLink}/E24`,
+  mainImage: `${cdnLink}/e18`,
 };
 
 const albumA = [
@@ -177,12 +177,12 @@ const albumA = [
     imgs: [
       {
         id: 1,
-        img: `${cdnLink}/e1`,
+        img: `${cdnLink}/e29`,
       },
 
       {
         id: 2,
-        img: `${cdnLink}/e4`,
+        img: `${cdnLink}/e30`,
       },
     ],
   },
@@ -191,11 +191,11 @@ const albumA = [
     imgs: [
       {
         id: 3,
-        img: `${cdnLink}/e3`,
+        img: `${cdnLink}/e31`,
       },
       {
         id: 4,
-        img: `${cdnLink}/e5`,
+        img: `${cdnLink}/e32`,
       },
     ],
   },
@@ -204,11 +204,11 @@ const albumA = [
     imgs: [
       {
         id: 5,
-        img: `${cdnLink}/e6`,
+        img: `${cdnLink}/e33`,
       },
       {
         id: 6,
-        img: `${cdnLink}/e7`,
+        img: `${cdnLink}/e34`,
       },
     ],
   },
@@ -217,11 +217,11 @@ const albumA = [
     imgs: [
       {
         id: 7,
-        img: `${cdnLink}/e8`,
+        img: `${cdnLink}/e35`,
       },
       {
         id: 8,
-        img: `${cdnLink}/e9`,
+        img: `${cdnLink}/e36`,
       },
     ],
   },
@@ -232,7 +232,7 @@ const albumB = [
     imgs: [
       {
         id: 9,
-        img: `${cdnLink}/e9`,
+        img: `${cdnLink}/e10`,
       },
     ],
   },
@@ -241,7 +241,7 @@ const albumB = [
     imgs: [
       {
         id: 10,
-        img: `${cdnLink}/e13`,
+        img: `${cdnLink}/e9`,
       },
     ],
   },
@@ -249,7 +249,7 @@ const albumB = [
     imgs: [
       {
         id: 11,
-        img: `${cdnLink}/e10`,
+        img: `${cdnLink}/e7`,
       },
     ],
   },
@@ -268,7 +268,7 @@ const albumC = [
     imgs: [
       {
         id: 13,
-        img: `${cdnLink}/e15`,
+        img: `${cdnLink}/e1`,
       },
     ],
   },
@@ -276,7 +276,7 @@ const albumC = [
     imgs: [
       {
         id: 14,
-        img: `${cdnLink}/e14`,
+        img: `${cdnLink}/e5`,
       },
     ],
   },
@@ -284,7 +284,7 @@ const albumC = [
     imgs: [
       {
         id: 15,
-        img: `${cdnLink}/e18`,
+        img: `${cdnLink}/e4`,
       },
     ],
   },
@@ -292,7 +292,7 @@ const albumC = [
     imgs: [
       {
         id: 16,
-        img: `${cdnLink}/e23`,
+        img: `${cdnLink}/e3`,
       },
     ],
   },
