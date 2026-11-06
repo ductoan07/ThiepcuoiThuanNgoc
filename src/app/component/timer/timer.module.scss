@@ -1,0 +1,130 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 24px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border-radius: 24px;
+}
+
+.text-box {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  border-style: double;
+  border-width: 5px 5px 5px 5px;
+  border-radius: 20px 20px 0px 0px;
+  border-color: #333;
+}
+
+.title {
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 1px;
+  color: black;
+  text-align: center;
+  font-family: Brice;
+}
+
+.description {
+  color: #333;
+  text-shadow: 2px 2px 3px #333;
+  padding: 12px;
+  font-size: 1.3rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Text2;
+  font-style: italic;
+}
+
+.time-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 12px;
+  width: 100%;
+  border-style: double;
+  border-width: 5px 5px 5px 5px;
+  border-radius: 0px 0px 20px 20px;
+  border-top: none;
+  border-color: #333;
+}
+
+.countdown {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.countdown-box {
+  // color: black;
+  margin: 4px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+  font-size: 2.5rem;
+  color: var(--primary-1);
+  font-family: var(--large-font);
+  font-size: 3.6rem;
+  letter-spacing: 2px;
+}
+
+.legend {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 80%;
+  height: 40px;
+  margin: 24px 0;
+  border: none;
+  background-color: var(--primary-1);
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  .icon {
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 3.1rem;
+    text-align: center;
+  }
+
+  .box {
+    background-size: contain;
+    background-position: 50% 93%;
+  }
+
+  .text-box {
+    background-size: 150px;
+  }
+}
