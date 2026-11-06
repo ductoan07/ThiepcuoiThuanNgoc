@@ -9,10 +9,10 @@ function Footer() {
         Created by{" "}
         <a
           className={cx("link")}
-          href="hhttps://www.facebook.com/ductoan07"
+          href="https://www.facebook.com/ductoan07"
           target="_blank"
         >
-          Danh Tuấn
+          Đức Toàn
         </a>
       </p>
       <p className={cx("text2")}>Thank you for watching . I Hope You Like It</p>
