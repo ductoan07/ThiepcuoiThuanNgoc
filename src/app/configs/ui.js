@@ -319,7 +319,7 @@ const metaData = {
       "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965989/E14.jpg",
   },
   album: {
-    title: "Album của Thuận - Ngọc`",
+    title: "Album của Thuận - Ngọc",
     graphImage:
       "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965989/E14.jpg",
   },
