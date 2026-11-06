@@ -3,9 +3,9 @@ import { metaData } from "./configs/ui";
 export async function generateMetadata({ params, searchParams }, parent) {
   const previousImages = (await parent).openGraph?.images || [];
 
-  const name = searchParams.name || "You";
+  const name = searchParams.name ? ` - ${searchParams.name}` : "";
   return {
-    title: `${metaData.main.title} ${name}`,
+    title: `${metaData.main.title}${name}`,
     openGraph: {
       images: [metaData.main.graphImage, ...previousImages],
     },
