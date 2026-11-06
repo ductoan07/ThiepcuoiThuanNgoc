@@ -5,7 +5,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
   const previousImages = (await parent).openGraph?.images || [];
   const name = searchParams.name ? ` - ${searchParams.name}` : "";
 
-  // Tạo URL động nếu có tham số name (URL mặc định lấy từ config hoặc URL cố định của Vercel)
+  // Đường dẫn URL của trang web trên Vercel
   const baseUrl = metaData.main.url || "https://thiepdamcuoi-eta.vercel.app";
   const currentUrl = searchParams.name
     ? `${baseUrl}?name=${encodeURIComponent(searchParams.name)}`
@@ -30,6 +30,5 @@ export async function generateMetadata({ params, searchParams }, parent) {
 }
 
 export default function Page({ params, searchParams }) {
-  // console.log(searchParams);
   return <Home />;
 }
