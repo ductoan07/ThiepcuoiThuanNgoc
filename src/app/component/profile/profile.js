@@ -9,6 +9,7 @@ function Profile() {
   return (
     <div className={cx("wrapper")}>
       <h2 className={cx("title")}>PROFILE</h2>
+      
       <p className={cx("des")}>{profileSection.description}</p>
 
       <div className={cx("profiles")}>

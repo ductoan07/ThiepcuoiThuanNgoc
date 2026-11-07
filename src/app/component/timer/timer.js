@@ -99,8 +99,8 @@ function Timer() {
     <div className={cx("wrapper")} ref={ref}>
       <div className={cx("box")} style={style}>
         <div className={cx("text-box")}>
-          <h3 className={cx("title")}>COUNTING DOWN</h3>
-          <h3 className={cx("title")}>TO THE BIG DAY</h3>
+          <h3 className={cx("title")}>ĐẾM NGƯỢC</h3>
+          <h3 className={cx("title")}>NGÀY TRỌNG ĐẠI</h3>
           {/* <Birds /> */}
         </div>
         <div className={cx("time-box")}>

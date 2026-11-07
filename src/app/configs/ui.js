@@ -30,9 +30,9 @@ const weddingInfo = [
       time: "16:00",
       full: "Thứ Bảy, Ngày 28 Tháng 11 năm 2026",
     },
-    address: "Thái Nguyên",
+    address: "388 đường Cách Mạng Tháng Tám, phường Sông Công, tỉnh Thái Nguyên",
     street: "đường cách mạng tháng 8",
-    phone: "0354 872 721",
+    phone: "0989 842 123",
     posision: "bottom left",
   },
 ];
@@ -73,8 +73,8 @@ const daysInMonth = [
 const introSection = {
   mainImage:
     "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965992/E17",
-  brideFirstLetter: "N",
-  groomFirstLetter: "T",
+  brideFirstLetter: "T",
+  groomFirstLetter: "N",
 };
 
 // profile section

@@ -62,7 +62,7 @@ function Infomation({
       </a>
       <a
         className={cx("btn")}
-        href={`http://maps.google.com/?q=${street}`}
+        href={`https://maps.app.goo.gl/WLtpLGzHoWT5zU5o8`}
         target="_blank"
       >
         <FaMapMarkerAlt className={cx("icon")} />

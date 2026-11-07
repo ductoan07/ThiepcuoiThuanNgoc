@@ -23,13 +23,18 @@ function Intro({ handleOpen, name = "You" }) {
           </div>
           <div className={cx("right")}>
             <div className={cx("text-box")}>
-              <p className={cx("date")}>{weddingInfo[0].time.full}</p>
+              <p className={cx("date")}
+              style={{ 
+                fontFamily: "'Montserrat'",
+                fontSize: "2rem",
+                fontWeight: "500"}}
+              >{weddingInfo[0].time.full}</p>
               <div className={cx("name-box")}>
-                <h3 className={cx("name")} style={{ marginTop: "-40px" }}>
+                <h3 className={cx("name")} style={{ marginTop: "-40px",fontFamily: "'Great Vibes', cursive",fontSize: "7rem" }}>
                   {introSection.brideFirstLetter}
                 </h3>
                 <span className={cx("and")}></span>
-                <h3 className={cx("name")} style={{ marginBottom: "-40px" }}>
+                <h3 className={cx("name")} style={{ marginBottom: "-40px", fontFamily: "'Great Vibes', cursive",fontSize: "7rem"}}>
                   {introSection.groomFirstLetter}
                 </h3>
               </div>
@@ -50,12 +55,17 @@ function Intro({ handleOpen, name = "You" }) {
 
             <motion.button
               className={cx("btn")}
+              style={{ 
+    fontFamily: "'Montserrat'", // Đổi phông chữ
+    fontWeight: 600,                         // Độ đậm chữ
+    letterSpacing: "1px"                     // Tăng khoảng cách chữ
+  }}
               whilehover={{ scale: 1.1 }}
               whiletap={{ scale: 0.9 }}
               onClick={handleOpen}
             >
               <span className={cx("heart-icon")}>
-                <img className={cx("icon")} src={images.invite.default.src} />
+                <img className={cx("icon")} src={images.invite.default.src} style={{ width: "33px", height: "33px", verticalAlign: "middle" }}/>
               </span>
               Mở thiệp
             </motion.button>

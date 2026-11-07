@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Great+Vibes&family=Pinyon+Script&display=swap');
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 red;
@@ -75,13 +76,13 @@
 // header
 
 .header-text {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   font-family: var(--large-font);
   margin: 0;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   font-weight: bold;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .header {
@@ -179,10 +180,10 @@
   justify-content: center;
 
   .dear {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin: 0;
-    font-family: var(--font);
-    font-weight: 400;
+    font-family: Montserrat;
+    font-weight: 700;
     letter-spacing: 2px;
   }
 
@@ -253,8 +254,7 @@
     }
   }
 
-  .right {
-  }
+ 
 }
 
 @media (max-width: 480px) {
