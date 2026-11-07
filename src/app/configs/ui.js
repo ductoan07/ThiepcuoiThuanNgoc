@@ -73,8 +73,8 @@ const daysInMonth = [
 const introSection = {
   mainImage:
     "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965992/E17",
-  brideFirstLetter: "Tài Thuận",
-  groomFirstLetter: "Đoàn Ngọc",
+  brideFirstLetter: "Thuận",
+  groomFirstLetter: "Ngọc",
 };
 
 // profile section

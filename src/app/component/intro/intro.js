@@ -35,7 +35,7 @@ function Intro({ handleOpen, name = "You" }) {
                   {introSection.brideFirstLetter}
                 </h3>
                 <span className={cx("and")}></span>
-                <h3 className={cx("name")} style={{ marginBottom: "-40px"}}>
+                <h3 className={cx("name")} style={{ marginBottom: "-60px"}}>
                   {introSection.groomFirstLetter}
                 </h3>
               </div>
