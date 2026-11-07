@@ -31,11 +31,11 @@ function Intro({ handleOpen, name = "You" }) {
                 fontWeight: "500"}}
               >{weddingInfo[0].time.full}</p>
               <div className={cx("name-box")}>
-                <h3 className={cx("name")} style={{ marginTop: "-40px",fontFamily: "'Parisienne', cursive",fontSize: "7rem" }}>
+                <h3 className={cx("name")} style={{ marginTop: "-40px"}}>
                   {introSection.brideFirstLetter}
                 </h3>
                 <span className={cx("and")}></span>
-                <h3 className={cx("name")} style={{ marginBottom: "-40px", fontFamily: "'Parisienne', cursive",fontSize: "7rem"}}>
+                <h3 className={cx("name")} style={{ marginBottom: "-40px"}}>
                   {introSection.groomFirstLetter}
                 </h3>
               </div>
