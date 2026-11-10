@@ -130,11 +130,7 @@ function Album({ name }) {
       </div>
 
       <Link className={cx("btn")} href={`/albums?name=${name}`}>
-<<<<<<< HEAD
-        Ấn vào đây để xem hết album của chúng mình
-=======
-        Xem hết album
->>>>>>> f54d7c7de5bcb97af51ab6876bd8486abd85cdd1
+
       </Link>
     </div>
   );
