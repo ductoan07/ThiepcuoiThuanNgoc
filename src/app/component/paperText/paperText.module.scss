@@ -1,0 +1,58 @@
+.wrapper {
+  margin-top: 24px;
+  max-width: 900px;
+  display: flex;
+  justify-self: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.text {
+  display: flex;
+  justify-self: center;
+  align-items: flex-start;
+  font-size: 2rem;
+  padding: 50px 50px;
+  text-align: center;
+  background-image: url("../../images/paper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  font-family: Brush;
+  font-size: 3.4rem;
+  word-spacing: 2px;
+  filter: grayscale(1);
+}
+
+.heart {
+  width: 200px;
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+  filter: none;
+}
+
+@media (max-width: 768px) {
+  .text {
+    padding: 40px;
+    font-size: 3rem;
+  }
+
+  .heart {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text {
+    padding: 40px;
+    font-size: 2.3rem;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .heart {
+    width: 130px;
+  }
+}
