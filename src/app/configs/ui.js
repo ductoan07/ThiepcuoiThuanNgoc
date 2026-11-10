@@ -72,7 +72,11 @@ const daysInMonth = [
 // invitation intro (first section)
 const introSection = {
   mainImage:
+<<<<<<< HEAD
     "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965992/E11",
+=======
+    "https://res.cloudinary.com/ecsr9vbf/image/upload/f_auto,q_auto/v1793965992/E17",
+>>>>>>> f54d7c7de5bcb97af51ab6876bd8486abd85cdd1
   brideFirstLetter: "Thuận",
   groomFirstLetter: "Ngọc",
 };
@@ -114,7 +118,11 @@ const albumSection = {
     `${cdnLink}/e25`,
     `${cdnLink}/e18`,
     `${cdnLink}/e7`,
+<<<<<<< HEAD
     `${cdnLink}/e24`,
+=======
+    `${cdnLink}/e16`,
+>>>>>>> f54d7c7de5bcb97af51ab6876bd8486abd85cdd1
   ],
 };
 
@@ -129,18 +137,31 @@ const guestbookSection = {
 
 const giftSection = {
   image:
+<<<<<<< HEAD
     `${cdnLink}/E3`,
   brideBank: {
     name: "Đoàn Thị Ngọc",
     bankName: "Vietcombank ",
     qr: images.qr2.default.src,
     bankNumber: "1042219157",
+=======
+    `${cdnLink}/E2`,
+  brideBank: {
+    name: "Đoàn Thị Ngọc",
+    bankName: "Vietinbank ",
+    qr: images.qr2.default.src,
+    bankNumber: "107880386791",
+>>>>>>> f54d7c7de5bcb97af51ab6876bd8486abd85cdd1
   },
   groomBank: {
     name: "Ngụy Lý Tài Thuận",
     bankName: "MB BANK",
     qr: images.qr.default.src,
+<<<<<<< HEAD
     bankNumber: "2080123998888",
+=======
+    bankNumber: "9999999996654",
+>>>>>>> f54d7c7de5bcb97af51ab6876bd8486abd85cdd1
   },
 };
 
@@ -169,7 +190,11 @@ const finalSection = {
 const albumPage = {
   topImage: `${cdnLink}/E5`,
   bottomImage: `${cdnLink}/E24`,
+<<<<<<< HEAD
   mainImage: `${cdnLink}/e17`,
+=======
+  mainImage: `${cdnLink}/e18`,
+>>>>>>> f54d7c7de5bcb97af51ab6876bd8486abd85cdd1
 };
 
 const albumA = [
@@ -292,7 +317,11 @@ const albumC = [
     imgs: [
       {
         id: 16,
+<<<<<<< HEAD
         img: `${cdnLink}/e2`,
+=======
+        img: `${cdnLink}/e3`,
+>>>>>>> f54d7c7de5bcb97af51ab6876bd8486abd85cdd1
       },
     ],
   },
